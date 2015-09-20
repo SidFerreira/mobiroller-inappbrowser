@@ -40,9 +40,30 @@
         </js-module>
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="MobirollerInAppBrowser">
-                <param name="android-package" value="com.mobiroller.MobirollerInAppBrowser"/>
+                <param name="android-package" value="com.mobiroller.tools.inappbrowser.MobirollerInAppBrowser"/>
             </feature>
         </config-file>
+
+        <source-file src="src/android/MobirollerInAppBrowser.java" target-dir="src/com/mobiroller/tools/inappbrowser" />
+        <source-file src="src/android/MobirollerInAppBrowserDialog.java" target-dir="src/com/mobiroller/tools/inappbrowser" />
+        <source-file src="src/android/MobirollerInAppChromeClient.java" target-dir="src/com/mobiroller/tools/inappbrowser" />
+
+        <!--  drawable src/android/resources -->
+        <resource-file src="src/android/res/drawable-hdpi/ic_action_next_item.png" target="res/drawable-hdpi/ic_action_next_item.png" />
+        <resource-file src="src/android/res/drawable-mdpi/ic_action_next_item.png" target="res/drawable-mdpi/ic_action_next_item.png" />
+        <resource-file src="src/android/res/drawable-xhdpi/ic_action_next_item.png" target="res/drawable-xhdpi/ic_action_next_item.png" />
+        <resource-file src="src/android/res/drawable-xxhdpi/ic_action_next_item.png" target="res/drawable-xxhdpi/ic_action_next_item.png" />
+
+        <resource-file src="src/android/res/drawable-hdpi/ic_action_previous_item.png" target="res/drawable-hdpi/ic_action_previous_item.png" />
+        <resource-file src="src/android/res/drawable-mdpi/ic_action_previous_item.png" target="res/drawable-mdpi/ic_action_previous_item.png" />
+        <resource-file src="src/android/res/drawable-xhdpi/ic_action_previous_item.png" target="res/drawable-xhdpi/ic_action_previous_item.png" />
+        <resource-file src="src/android/res/drawable-xxhdpi/ic_action_previous_item.png" target="res/drawable-xxhdpi/ic_action_previous_item.png" />
+
+        <resource-file src="src/android/res/drawable-hdpi/ic_action_remove.png" target="res/drawable-hdpi/ic_action_remove.png" />
+        <resource-file src="src/android/res/drawable-mdpi/ic_action_remove.png" target="res/drawable-mdpi/ic_action_remove.png" />
+        <resource-file src="src/android/res/drawable-xhdpi/ic_action_remove.png" target="res/drawable-xhdpi/ic_action_remove.png" />
+        <resource-file src="src/android/res/drawable-xxhdpi/ic_action_remove.png" target="res/drawable-xxhdpi/ic_action_remove.png" />
+
     </platform>
 
     <!-- ios -->
