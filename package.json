@@ -5,7 +5,8 @@
   "cordova": {
     "id": "mobiroller-inappbrowser",
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   },
   "repository": {
