@@ -1,0 +1,24 @@
+{
+  "name": "mobiroller-inappbrowser",
+  "version": "0.0.1",
+  "description": "Mobiroller InAppBrowser Plugin",
+  "cordova": {
+    "id": "mobiroller-inappbrowser",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SidFerreira/mobiroller-inappbrowser.git"
+  },
+
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.1.0"
+    }
+  ],
+  "author": "Apache Software Foundation",
+  "license": "Apache 2.0"
+}
